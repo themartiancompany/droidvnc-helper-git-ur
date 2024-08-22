@@ -14,7 +14,7 @@ pkgname="${_pkgname}-git"
 pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1".r0.g"0b7099d8fc0af5329d3c4df59a86c34f6625ef26"
 pkgrel=1
 _pkgdesc=(
-  "Remote encode media files."
+  "Manage DroidVNC settings."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -31,8 +31,8 @@ license=(
   AGPL3
 )
 depends=(
-  dynssh
-  rsync
+  android-utils
+  sqlite
 )
 makedepends=(
   make

@@ -1,5 +1,5 @@
 pkgbase = droidvnc-helper-git
-	pkgdesc = Remote encode media files.
+	pkgdesc = Manage DroidVNC settings.
 	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g0b7099d8fc0af5329d3c4df59a86c34f6625ef26
 	pkgrel = 1
 	url = https://github.com/themartiancompany/droidvnc-helper
@@ -11,8 +11,8 @@ pkgbase = droidvnc-helper-git
 	makedepends = make
 	makedepends = curl
 	makedepends = jq
-	depends = dynssh
-	depends = rsync
+	depends = android-utils
+	depends = sqlite
 	optdepends = media-tools: media manipulation tools library
 	optdepends = record-tools: recording tools suite
 	optdepends = android-recorder: for recording from this device screen.
