@@ -1,0 +1,26 @@
+pkgbase = droidvnc-helper-git
+	pkgdesc = Remote encode media files.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g0b7099d8fc0af5329d3c4df59a86c34f6625ef26
+	pkgrel = 1
+	url = https://github.com/themartiancompany/droidvnc-helper
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = dynssh
+	depends = rsync
+	optdepends = media-tools: media manipulation tools library
+	optdepends = record-tools: recording tools suite
+	optdepends = android-recorder: for recording from this device screen.
+	optdepends = android-camera-recorder: for recording from this device camera
+	optdepends = android-remote-camera-recorder: for recording from the camera of another device
+	provides = droidvnc-helper=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g0b7099d8fc0af5329d3c4df59a86c34f6625ef26
+	conflicts = droidvnc-helper
+	source = droidvnc-helper.tar.gz::https://github.com/themartiancompany/droidvnc-helper/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = droidvnc-helper-git
