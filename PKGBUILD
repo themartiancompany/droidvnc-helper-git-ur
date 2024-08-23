@@ -31,7 +31,7 @@ license=(
   AGPL3
 )
 depends=(
-  android-utils
+  android-app-utils
   sqlite
 )
 makedepends=(
